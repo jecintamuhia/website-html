@@ -79,7 +79,8 @@ nav ul li a {
     box-shadow: #50964d;
     border-radius: 10px;
     min-width: 100%;
-  
+    margin:auto solid black;
+
 
 
     
@@ -251,3 +252,25 @@ div:before{
     background-size:cover;
     background-position:center;
 } 
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
